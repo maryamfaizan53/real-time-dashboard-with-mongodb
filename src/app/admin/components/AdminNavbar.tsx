@@ -1,4 +1,4 @@
-"use client";
+
 
 import React, { Dispatch, SetStateAction } from "react";
 import { FaBars } from "react-icons/fa";

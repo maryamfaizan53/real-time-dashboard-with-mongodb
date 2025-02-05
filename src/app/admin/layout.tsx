@@ -12,11 +12,11 @@ export default function AdminLayout({
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="flex min-h-screen bg-black text-white">
+    <div className="flex min-h-screen bg-black text-red">
       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       <div className="flex-1 flex flex-col">
         <AdminNavbar setSidebarOpen={setSidebarOpen} />
-        <main className="p-4 flex-1 overflow-y-auto bg-gray-900 text-white">{children}</main>
+        <main className="p-4 flex-1 overflow-y-auto bg-gray-900 text-red">{children}</main>
       </div>
     </div>
   );
